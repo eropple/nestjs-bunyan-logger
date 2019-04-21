@@ -1,11 +1,15 @@
 {
   "name": "@eropple/nestjs-bunyan-logger",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0",
   "description": "Provides a NestJS LoggerService, using Bunyan.",
   "main": "dist",
   "author": "Ed Ropple",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "yarn exec tsc",
+    "prepare": "yarn build"
+  },
   "peerDependencies": {
     "@nestjs/common": ">=6.0.0"
   },
