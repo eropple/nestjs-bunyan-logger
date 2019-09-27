@@ -1,4 +1,6 @@
 # @eropple/nestjs-bunyan-logger #
+[![npm version](https://badge.fury.io/js/%40eropple%2Fnestjs-bunyan-logger.svg)](https://badge.fury.io/js/%40eropple%2Fnestjs-bunyan-logger)
+
 This package provides a [NestJS](https://nestjs.com) `LoggerService` that uses
 Bunyan under the hood.
 
